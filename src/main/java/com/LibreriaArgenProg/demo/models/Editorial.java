@@ -22,5 +22,10 @@ public class Editorial {
 	private String nombre;
 	private Boolean alta;
 	
+	public Editorial(String nombre, Boolean alta) {
+		this.nombre = nombre;
+		this.alta = alta;
+	}
+	
 	
 }

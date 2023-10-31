@@ -22,4 +22,11 @@ public class Autor {
 	private String nombre;
 	private Boolean alta;
 	
+	public Autor(String nombre, Boolean alta) {
+		this.nombre = nombre;
+		this.alta = alta;
+	}
+	
+	
+	
 }

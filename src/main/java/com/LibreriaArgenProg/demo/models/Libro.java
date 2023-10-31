@@ -38,5 +38,20 @@ public class Libro {
 	@OneToOne
 	@JoinColumn(name = "autorId")
 	private Autor autorLibro;
+
+	public Libro(Long isbn, String titulo, Integer anio, Integer ejemplares, Integer ejemplaresPrestados,
+			Integer ejemplaresRestantes, Boolean alta) {
+		
+		this.isbn = isbn;
+		this.titulo = titulo;
+		this.anio = anio;
+		this.ejemplares = ejemplares;
+		this.ejemplaresPrestados = ejemplaresPrestados;
+		this.ejemplaresRestantes = ejemplaresRestantes;
+		this.alta = alta;
+	}
+	
+	
+	
 	
 }
